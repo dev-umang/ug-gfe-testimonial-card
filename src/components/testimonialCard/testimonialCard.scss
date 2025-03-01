@@ -1,0 +1,23 @@
+.card {
+  width: 340px;
+  border-radius: 8px;
+  padding: 24px;
+  background: white;
+  box-shadow: 0px 1px 3px #00000010, 0px 1px 3px #00000010;
+}
+
+.card-header {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  column-gap: 16px;
+  margin-bottom: 16px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user-id {
+  color: #525252;
+}
